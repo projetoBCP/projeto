@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="imagens/iphan-logo - Copia.jpg" type="image/x-icon">
+    <title>Resultados</title>
+</head>
+<body>
+ 
+  <header id="sessao_inicial" class="bg_principal">   
+    <div id="header_menu" >
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark p-2" id="menu">
+            <a class="navbar-brand" href="#">
+                <img src="imagens/iphan-logo - Copia.jpg" alt="" height="30">
+                
+            </a>
+           
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse p-2" id="navbarSupportedContent">
+              <span class="nav-item text-white cinzel mr-5">BCP - Bens Culturais Procurados </span>
+              <ul class="navbar-nav mr-auto nav-justified pl-4">
+                <li class="nav-item active">
+                  <a class="nav-link active" href="#">Home </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Disabled</a>
+                </li>
+             </ul>   
+             <button class="btn  text-white text-right bg_destaque border" id="botao_acessar" type="submit">ACESSAR</button>
+               </div>      
+            </div>
+     
+          </div> 
+          </nav>
+          
+            </ul>
+        </nav>
+      </div>
+    </header>   
+        <section id="sessao_formulario_inicial" class=" p-4 d-flex justify-content-center align-items-center">
+            <div id="container_formulario" class="container bg_secundaria shadow border rounded p-5" > 
+                <div class="d-lg-flex p-4">
+                <p class="col-lg-9 col-md-8">Exibindo resultados para sua pesquisa...</p>
+                <button class="col-lg-3 col-md-4 btn bg_destaque"><a href="index.html" class="text-white">Nova Consulta</a></button>
+            </div>
+            <div id="tabela_resultado">
+                <table class="table bg-white table-striped table-responsive-md  "  >
+                    <thead class="bg_secundaria">
+                      <tr class="cabecalho position-sticky">
+                        <th scope="col">Número BCP</th>
+                        <th scope="col">Nome do Objeto</th>
+                        <th scope="col">Título</th>
+                        <th scope="col">UF</th>
+                        <th scope="col">Munícipio</th>
+                        <th scope="col">Situação</th>
+                        <th scope="col">Foto</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr data-toggle="modal" data-target="#exampleModal" class="pointer">
+                        <th scope="row">1</th>
+                        <td>Arandela</td>
+                        <td>-</td>
+                        <td>RJ</td>
+                        <td>Rio de Janeiro</td>
+                        <td>Procurado</td>
+                        <td>
+                            <img src="imagens/arte.png" alt=""   height="30">
+                        </td>
+                      </tr>
+                      <tr data-toggle="modal" data-target="#exampleModal" class="pointer">
+                        <th scope="row">1</th>
+                        <td>Arandela</td>
+                        <td>-</td>
+                        <td>RJ</td>
+                        <td>Rio de Janeiro</td>
+                        <td>Procurado</td>
+                        <td>
+                            <img src="imagens/arte.png" alt=""   height="30">
+                        </td>
+                      </tr>
+                      <tr data-toggle="modal" data-target="#exampleModal" class="pointer">
+                        <th scope="row">1</th>
+                        <td>Arandela</td>
+                        <td>-</td>
+                        <td>RJ</td>
+                        <td>Rio de Janeiro</td>
+                        <td>Procurado</td>
+                        <td>
+                            <img src="imagens/arte.png" alt=""   height="30">
+                        </td>
+                      </tr>
+                      <tr data-toggle="modal" data-target="#exampleModal" class="pointer">
+                        <th scope="row">1</th>
+                        <td>Arandela</td>
+                        <td>-</td>
+                        <td>RJ</td>
+                        <td>Rio de Janeiro</td>
+                        <td>Procurado</td>
+                        <td>
+                            <img src="imagens/arte.png" alt=""   height="30">
+                        </td>
+                      </tr>
+                      <tr data-toggle="modal" data-target="#exampleModal" class="pointer">
+                        <th scope="row">1</th>
+                        <td>Arandela</td>
+                        <td>-</td>
+                        <td>RJ</td>
+                        <td>Rio de Janeiro</td>
+                        <td>Procurado</td>
+                        <td>
+                            <img src="imagens/arte.png" alt=""   height="30">
+                        </td>
+                      </tr>
+                      <tr data-toggle="modal" data-target="#exampleModal" class="pointer" >
+                        <th scope="row">1</th>
+                        <td>Arandela</td>
+                        <td>-</td>
+                        <td>RJ</td>
+                        <td>Rio de Janeiro</td>
+                        <td>Procurado</td>
+                        <td>
+                            <img src="imagens/arte.png" alt=""   height="30">
+                        </td>
+                      </tr>
+                      <tr data-toggle="modal" data-target="#exampleModal" class="pointer" >
+                        <th scope="row">1</th>
+                        <td>Arandela</td>
+                        <td>-</td>
+                        <td>RJ</td>
+                        <td>Rio de Janeiro</td>
+                        <td>Procurado</td>
+                        <td>
+                            <img src="imagens/arte.png" alt=""   height="30">
+                        </td>
+                      </tr>
+                    </tbody>
+                      <div class="modal  fade rounded" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrolled modal-xl" role="document">
+      <div class="modal-content">
+        <div class="modal-header border-bottom bg_secundaria">
+          <div class="modal-title d-flex w-100" id="exampleModalLabel"><h3 class="col-lg-8 font-weight-light">Arabela</h3><button class=" text-center alert-danger d-flex btn rounded shadow"><i class="bi-exclamation-circle mr-2"> </i>Procurado</button></div>
+          
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+         <div>
+             <img src="imagens/arte.png" alt="" class="img-fluid"></div>
+             <label for="">Objeto: </label>
+             <input type="text" name="" id="" class="disabled input form-control" value="Arandela" readonly="reandoly">
+             <label for="">Título: </label>
+             <input type="text" name="" id="" class="disabled input form-control" value="Arabela" readonly="reandoly">
+             <label for="">UF: </label>
+             <input type="text" name="" id="" class="disabled input form-control" value="Arabela" readonly="reandoly">
+             <label for=""> Município: </label>
+             <input type="text" name="" id="" class="disabled input form-control" value="Arabela" readonly="reandoly">
+             <label for="">Ano do desaparecimento: </label>
+             <input type="text" name="" id="" class="disabled input form-control" value="Arabela" readonly="reandoly">
+             <label for=""> Você possui alguma informação sobre essa obra?</label>
+             <textarea class="form-control bg-light" name="" id="" height="20px" cols="30" rows="10"></textarea>
+         
+
+        </div>
+        <div class="modal-footer bg_secundaria">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-success">Salvar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </table>
+</div>
+                
+                  
+                  
+            </div>
+        </section> 
+</body>
+</html>
