@@ -10,7 +10,7 @@ body{
 :root{
     --destaques: #A6382E;
     --principal:#035941;
-    --secundaria:#DCF2EC;
+    --secundaria:#e7fbf6;
     --terciaria:#038C3E;
     --sucesso:#0CF25D;
 }
@@ -106,4 +106,7 @@ header{
 max-height: 50vh;
 overflow-y: scroll;
 
+}
+#corpo-login{
+    height: 100vh;
 }
