@@ -53,15 +53,15 @@ body{
     color:#fff;
 }
 #menu li{
-    width: 25%;
     text-align:center;
+    margin:0 10px;
 }
 #menu li > a:hover{
     border-bottom: 1px solid var(--secundaria);
     
 }
 #menu ul{
-    width: 30%;
+  
     display: flex;
     justify-content: space-around;
 }
@@ -107,6 +107,11 @@ max-height: 50vh;
 overflow-y: scroll;
 
 }
-#corpo-login{
-    height: 100vh;
+.corpo{
+    height: 85vh;
+    align-items: center;
+    justify-content: center;
+}
+.menu_ativo{
+    border-bottom: 1px solid #fff;
 }

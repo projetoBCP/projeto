@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="imagens/iphan-logo - Copia.jpg" type="image/x-icon">
+    <title>Projeto BCP</title>
+</head>
+
+<body>
+    <header id="sessao_inicial" class="bg_principal">
+        <div id="header_menu">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-dark p-2" id="menu">
+                    <a class="navbar-brand" href="#">
+                        <img src="imagens/iphan-logo - Copia.jpg" alt="" height="30">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                    <div class="collapse navbar-collapse p-2" id="navbarSupportedContent">
+                        <span class="nav-item text-white cinzel mr-5">BCP - Bens Culturais Procurados </span>
+                        <ul class="navbar-nav mr-auto nav-justified pl-4 ">
+                            <li class="nav-item active">
+                                <a class="nav-link active" href="#">Home </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link menu_ativo " href="#">Cadastrar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Consultar/Alterar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Relatórios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Auditoria</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sistema</a>
+                            </li>
+                        </ul>
+                        <a href="login.html">
+                            <button class="btn  text-white text-right bg_destaque border" id="botao_acessar" type="submit">ACESSAR</button></a>
+                    </div>
+            </div>
+
+        </div>
+        </nav>
+
+        </ul>
+        </nav>
+        </div>
+    </header>
+    <div id="corpo_cadastrocnart" class="d-flex justify-content-center align-items-center bg-light corpo ">
+        <form action="" class="form-group w-75 mx-auto" method="POST">
+            <div id="container_formulario" class="container bg_secundaria shadow border rounded p-0 p-md-3">
+                <h3 class="text-dark font-weight-light mb-3">Cadastro de Negociantes de Obras de Arte</h3>
+                <div class="tab-content bg-white p-4">
+                    <form action="cadastrocnart.html" class="form_pesquisa justify-content-around " id="form_procurados">
+                        <div class="d-lg-flex justify-content-around">
+                            <div class="col">
+                                <label class="col-form-label">CPF: <span class="font-weight-light">*</span></label>
+                                <input type="text" name="" id="" class="form-control">
+                            </div>
+                            <div class="col">
+                                <label class="col-form-label">Nome Completo:*</label>
+                                <input type="text" name="" id="" class="form-control">
+                            </div>
+                            <div class="col-lg-5">
+                                <label class="col-form-label">Tipo:</label>
+                                <select name="" id="" class="form-control w-100">
+                        <option value="" class="form-control w-100">Pessoa Física</option>
+                        <option value="" class="form-control w-100">Pessoa Jurídica</option>
+                        <option value="" class="form-control w-100">Agente de Leilão</option>
+                        </select>
+
+                            </div>
+                        </div>
+                        <div class="d-lg-flex justify-content-around">
+                            <div class="col-lg-7">
+                                <label class="col-form-label">Época/Período:</label>
+                                <div class="d-lg-flex justify-content-around ">
+                                    <span class="p-2"> De</span> <input type="month" name="" id="" class="date  form-control"> <span class="p-2"> a </span> <input type="month" name="" id="" class="date  form-control">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <label class="col-form-label">RG:*</label>
+                                <input type="text" name="" id="" class="form-control">
+                            </div>
+                            <!--  -->
+                        </div>
+                        <div class="d-lg-flex justify-content-around">
+                            <div class="col-lg-5">
+                                <label class="col-form-label">UF:</label>
+                                <select name="" id="" class="form-control w-100">
+                        <option value="" class="form-control w-100">Todos</option>
+                    </select>
+
+                            </div>
+                            <div class="col-lg-7">
+                                <label class="col-form-label">Munícipio:</label>
+                                <input type="text" name="" id="" class="form-control">
+                            </div>
+
+                        </div>
+                        <div class="w-50 ml-auto m-2 d-lg-flex justify-content-around">
+                            <input type="reset" name="" id="" value="LIMPAR" class="form-control btn btn-outline-info m-2">
+                            <input type="submit" name="" id="" value="PESQUISAR" class="form-control btn bg_destaque text-white cor_secundaria m-2 border">
+                        </div>
+                    </form>
+                </div>

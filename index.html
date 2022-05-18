@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,184 +15,187 @@
     <link rel="shortcut icon" href="imagens/iphan-logo - Copia.jpg" type="image/x-icon">
     <title>Projeto BCP</title>
 </head>
+
 <body>
-    <header id="sessao_inicial" class="bg_principal">   
-    <div id="header_menu" >
-      <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-dark p-2" id="menu">
-            <a class="navbar-brand" href="#">
-                <img src="imagens/iphan-logo - Copia.jpg" alt="" height="30">
-                
-            </a>
-           
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <script>
+    </script>
+    <header id="sessao_inicial" class="bg_principal">
+        <div id="header_menu">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-dark p-2" id="menu">
+                    <a class="navbar-brand" href="#">
+                        <img src="imagens/iphan-logo - Copia.jpg" alt="" height="30">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-          
-            <div class="collapse navbar-collapse p-2" id="navbarSupportedContent">
-              <span class="nav-item text-white cinzel mr-5">BCP - Bens Culturais Procurados </span>
-              <ul class="navbar-nav mr-auto nav-justified pl-4">
-                <li class="nav-item active">
-                  <a class="nav-link active" href="#">Home </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link " href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Disabled</a>
-                </li>
-             </ul>   
-             <a href="login.html">
-             <button class="btn  text-white text-right bg_destaque border" id="botao_acessar" type="submit">ACESSAR</button></a>
-               </div>      
+                    <div class="collapse navbar-collapse p-2" id="navbarSupportedContent">
+                        <span class="nav-item text-white cinzel mr-5">BCP - Bens Culturais Procurados </span>
+                        <ul class="navbar-nav mr-auto nav-justified pl-4 ">
+                            <li class="nav-item active">
+                                <a class="nav-link active" href="#">Home </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">Cadastrar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Consultar/Alterar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Relatórios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Auditoria</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sistema</a>
+                            </li>
+                        </ul>
+                        <a href="login.html">
+                            <button class="btn  text-white text-right bg_destaque border" id="botao_acessar" type="submit">ACESSAR</button></a>
+                    </div>
             </div>
-     
-          </div> 
-          </nav>
-          
-            </ul>
+
+        </div>
         </nav>
-      </div>
+
+        </ul>
+        </nav>
+        </div>
     </header>
-    <section id="sessao_formulario_inicial" class=" p-4 d-md-flex bg-light d-block">
-      <div id="container_formulario" class="container bg_secundaria shadow border rounded p-3" > 
+    <section id="sessao_formulario_inicial" class=" p-4 d-md-flex bg-light d-block corpo justify-content-center align-items-center">
+        <div id="container_formulario" class="container bg_secundaria shadow border rounded p-3">
             <h3 class="text-dark font-weight-light mb-3">Bens Culturais</h3>
             <ul class="nav nav-tabs nav-justified">
                 <li class="nav-item ">
-                  <a href="#pesq_procurados" role="tabpanel" data-toggle="tab" class="nav-link active">Procurados</a>
+                    <a href="#pesq_procurados" role="tabpanel" data-toggle="tab" class="nav-link active">Procurados</a>
                 </li>
                 <li class="nav-item ">
-                  <a href="#pesq_resgatados" role="presentation" data-toggle="tab" class="nav-link">Resgatados</a>
+                    <a href="#pesq_resgatados" role="presentation" data-toggle="tab" class="nav-link">Resgatados</a>
                 </li>
                 <li class="nav-item ">
-                  <a href="#pesq_ambos" role="presentation" data-toggle="tab" class="nav-link">Ambos</a>
+                    <a href="#pesq_ambos" role="presentation" data-toggle="tab" class="nav-link">Ambos</a>
                 </li>
-              </ul>
-          <div class="tab-content bg-white p-4">
-            <div id="pesq_procurados" class="tab-pane container show fade active" role="tabpanel" aria-labelledby="">
-              <form action="results.html" class="form_pesquisa justify-content-around " id="form_procurados">
-                <div class="d-lg-flex justify-content-around">
-                  <div class="col">
-                <label class="col-form-label">Objeto:</label>
-                <input type="text" name="" id="" class="form-control">
-              </div>
-              <div class="col">
-                 <label class="col-form-label">Título:</label>
-                <input type="text" name="" id="" class="form-control">
-             </div>
-             <div class="col">
-                 <label class="col-form-label">Autoria:</label>
-                <input type="text" name="" id="" class="form-control">
-              </div>
-               </div>
-               <div class="d-lg-flex justify-content-around">
-                <div class="col-lg-7">
-              <label class="col-form-label">Época/Período:</label>
-              <div class="d-lg-flex justify-content-around ">
-              <span class="p-2"> De</span> <input type="month" name="" id="" class="date  form-control"> <span class="p-2"> a </span>   <input type="month" name="" id="" class="date  form-control">
-           </div> </div>
-           
-           <div class="col-lg-5">
-            <label class="col-form-label">Ano do Desaparecimento:</label>
-            <select name="" id="" class="form-control w-100">
+            </ul>
+            <div class="tab-content bg-white p-4">
+                <div id="pesq_procurados" class="tab-pane container show fade active" role="tabpanel" aria-labelledby="">
+                    <form action="results.html" class="form_pesquisa justify-content-around " id="form_procurados">
+                        <div class="d-lg-flex justify-content-around">
+                            <div class="col">
+                                <label class="col-form-label">Objeto:</label>
+                                <input type="text" name="" id="" class="form-control">
+                            </div>
+                            <div class="col">
+                                <label class="col-form-label">Título:</label>
+                                <input type="text" name="" id="" class="form-control">
+                            </div>
+                            <div class="col">
+                                <label class="col-form-label">Autoria:</label>
+                                <input type="text" name="" id="" class="form-control">
+                            </div>
+                        </div>
+                        <div class="d-lg-flex justify-content-around">
+                            <div class="col-lg-7">
+                                <label class="col-form-label">Época/Período:</label>
+                                <div class="d-lg-flex justify-content-around ">
+                                    <span class="p-2"> De</span> <input type="month" name="" id="" class="date  form-control"> <span class="p-2"> a </span> <input type="month" name="" id="" class="date  form-control">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-5">
+                                <label class="col-form-label">Ano do Desaparecimento:</label>
+                                <select name="" id="" class="form-control w-100">
               <option value="" class="form-control w-100">Todos</option>
             </select>
-              
-            </div>
-             </div>
-          <div class="d-lg-flex justify-content-around">
-            <div class="col-lg-5">
-              <label class="col-form-label">UF:</label>
-              <select name="" id="" class="form-control w-100">
+
+                            </div>
+                        </div>
+                        <div class="d-lg-flex justify-content-around">
+                            <div class="col-lg-5">
+                                <label class="col-form-label">UF:</label>
+                                <select name="" id="" class="form-control w-100">
                 <option value="" class="form-control w-100">Todos</option>
               </select>
-              
-           </div>
-           <div class="col-lg-7">
-            <label class="col-form-label">Munícipio:</label>
-              <input type="text" name="" id="" class="form-control">  
-            </div>
 
-          </div>     
-        <div class="w-50 ml-auto m-2 d-lg-flex justify-content-around">
-          <input type="reset" name="" id="" value="LIMPAR" class="form-control btn btn-outline-info m-2">
-         <input type="submit" name="" id="" value="PESQUISAR" class="form-control btn bg_destaque cor_secundaria m-2 border">
-         </div>
-              </form>
+                            </div>
+                            <div class="col-lg-7">
+                                <label class="col-form-label">Munícipio:</label>
+                                <input type="text" name="" id="" class="form-control">
+                            </div>
+
+                        </div>
+                        <div class="w-50 ml-auto m-2 d-lg-flex justify-content-around">
+                            <input type="reset" name="" id="" value="LIMPAR" class="form-control btn btn-outline-info m-2">
+                            <input type="submit" name="" id="" value="PESQUISAR" class="form-control btn bg_destaque cor_secundaria m-2 border">
+                        </div>
+                    </form>
+                </div>
+                <div id="pesq_resgatados" class="tab-pane container fade" role="tabpanel" aria-labelledby="">
+                    <form action="results.html" class="form_pesquisa justify-content-around " id="form_procurados">
+                        <div class="d-lg-flex justify-content-around">
+                            <div class="col">
+                                <label class="col-form-label">Objeto:</label>
+                                <input type="text" name="" id="" class="form-control">
+                            </div>
+                            <div class="col">
+                                <label class="col-form-label">Título:</label>
+                                <input type="text" name="" id="" class="form-control">
+                            </div>
+                            <div class="col">
+                                <label class="col-form-label">Autoria:</label>
+                                <input type="text" name="" id="" class="form-control">
+                            </div>
+                        </div>
+                        <div class="d-lg-flex justify-content-around">
+                            <div class="col ">
+                                <label class="col-form-label">Época/Período:</label>
+                                <div class="d-lg-flex justify-content-around ">
+                                    <span class="p-2"> De</span> <input type="month" name="" id="" class="date  form-control"> <span class="p-2"> a </span> <input type="month" name="" id="" class="date  form-control">
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <label class="col-form-label">Ano do Desaparecimeto:</label>
+                                <select name="" id="" class="form-control w-100">
+              <option value="" class="form-control w-100">Todos</option>
+            </select>
+
+                            </div>
+                        </div>
+                        <div class="d-lg-flex justify-content-around">
+                            <div class="col-lg-5">
+                                <label class="col-form-label">UF:</label>
+                                <select name="" id="" class="form-control w-100">
+                <option value="" class="form-control w-100">Todos</option>
+              </select>
+
+                            </div>
+                            <div class="col-lg-7">
+                                <label class="col-form-label">Munícipio:</label>
+                                <input type="text" name="" id="" class="form-control">
+                            </div>
+                        </div>
+                        <div class="w-50 ml-auto m-2 d-lg-flex justify-content-around">
+                            <input type="reset" name="" id="" value="LIMPAR" class="form-control btn btn-outline-info m-2">
+                            <input type="submit" name="" id="" value="PESQUISAR" class="form-control btn bg_destaque cor_secundaria m-2 border">
+                        </div>
+                    </form>
+                </div>
+                <div id="pesq_ambos" class="tab-pane container fade" role="tabpanel" aria-labelledby="">
+                    itemm 3
+                </div>
+            </div>
+            <div id="pesq_resgatados" class="tab-pane container fade " role="presentation" aria-labelledby="">
             </div>
             <div id="pesq_resgatados" class="tab-pane container fade" role="tabpanel" aria-labelledby="">
-              <form action="results.html" class="form_pesquisa justify-content-around " id="form_procurados">
-                <div class="d-lg-flex justify-content-around">
-                  <div class="col">
-                <label class="col-form-label">Objeto:</label>
-                <input type="text" name="" id="" class="form-control">
-              </div>
-              <div class="col">
-                 <label class="col-form-label">Título:</label>
-                <input type="text" name="" id="" class="form-control">
-             </div>
-             <div class="col">
-                 <label class="col-form-label">Autoria:</label>
-                <input type="text" name="" id="" class="form-control">
-              </div>
-               </div>
-               <div class="d-lg-flex justify-content-around">
-                <div class="col ">
-              <label class="col-form-label">Época/Período:</label>
-              <div class="d-lg-flex justify-content-around ">
-              <span class="p-2"> De</span> <input type="month" name="" id="" class="date  form-control"> <span class="p-2"> a </span>   <input type="month" name="" id="" class="date  form-control">
-           </div> </div>
-           
-           <div class="col">
-            <label class="col-form-label">Ano do Desaparecimeto:</label>
-            <select name="" id="" class="form-control w-100">
-              <option value="" class="form-control w-100">Todos</option>
-            </select>
-              
-            </div>
-             </div>
-          <div class="d-lg-flex justify-content-around">
-            <div class="col-lg-5">
-              <label class="col-form-label">UF:</label>
-              <select name="" id="" class="form-control w-100">
-                <option value="" class="form-control w-100">Todos</option>
-              </select>
-              
-           </div>
-           <div class="col-lg-7">
-            <label class="col-form-label">Munícipio:</label>
-              <input type="text" name="" id="" class="form-control">  
-            </div>  
-          </div>     
-        <div class="w-50 ml-auto m-2 d-lg-flex justify-content-around">
-          <input type="reset" name="" id="" value="LIMPAR" class="form-control btn btn-outline-info m-2">
-         <input type="submit" name="" id="" value="PESQUISAR" class="form-control btn bg_destaque cor_secundaria m-2 border">
-         </div>
-              </form>
+
             </div>
             <div id="pesq_ambos" class="tab-pane container fade" role="tabpanel" aria-labelledby="">
                 itemm 3
             </div>
-          </div>
-          
-          <div id="pesq_resgatados" class="tab-pane container fade " role="presentation" aria-labelledby="">
-           
-          </div>
-          <div id="pesq_resgatados" class="tab-pane container fade" role="tabpanel" aria-labelledby="">
-            
-          </div>
-          <div id="pesq_ambos" class="tab-pane container fade" role="tabpanel" aria-labelledby="">
-              itemm 3
-          </div>
         </div>
-      </div>
-  </section>
-
+        </div>
+    </section>
 </body>
+
 </html>
